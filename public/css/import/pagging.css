@@ -1,0 +1,25 @@
+.wp-pagging{
+    float: right;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-right: 150px;
+    width: 300px;
+}
+
+.pagging .active{
+    border: 1px solid crimson ;
+}
+ul.pagging li{
+    margin : 7px 3px;
+    display: inline-block;
+}
+ul.pagging li a {
+    display: block;
+    padding: 5px 15px;
+}
+.disabled{
+    cursor: not-allowed;
+    pointer-events: none;
+    opacity: 0.6;
+}

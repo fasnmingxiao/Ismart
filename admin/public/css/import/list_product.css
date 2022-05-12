@@ -1,0 +1,13 @@
+/*LIST PRODUCT*/
+.tbody-thumb{
+    width: 120px;
+    height: auto;
+    overflow: hidden;
+}
+.d-flex{
+    display: flex;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.tbody-thumb img{ border: 1px solid #ddd;}
